@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bi-iot-prueba
+  host: bi-iot-prueba
+  disk_quota: 1024M
+  services:
+  - bi-iot-prueba-cloudantNoSQLDB
+  - bi-iot-prueba-iotf-service
